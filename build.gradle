@@ -1,11 +1,13 @@
 plugins {
     id 'java-library'
+    id 'maven'
 }
 
-group 'pl.kawazprogramista.libraryJava8'
+group 'pl.kawazprogramista.jdk8.library'
 version '1.0-SNAPSHOT'
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
